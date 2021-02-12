@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+table tr td {border: 1px solid black;}
+td[id^='main']{height:34px; width:32px;}
+#maintable { 
+	
+	position: relative;
+	float:right;
+  	top: 300px;
+  	left:370px;
+	
+
+  
+  background-color: hidden}
+  
+/*img*/
+#frank {
+	position: relative;
+	float:right;
+	height:700px; width:455px;
+	top: 50px;
+
+	
+	}
+tr td {overflow: hidden; text-align: center; cursor: pointer;}
+/*#main_rh_5{background-color: green}*/
+
+input {width: 40%;}
+/*td.selected {background-color: grey;}*/
+/*.container */
+#mainDiv{
+  position: relative;
+  text-align: center;
+  bottom: 500px;
+  color: black;
+}
+
+tr td[id^='main_rh_'] {
+    background-color:  yellow;  
+}
+tr td[id^='main_ch_'] {
+    background-color:  yellow;  
+}
+td[id^='main_c_']:hover {
+  background-color: grey;
+  color: grey;
+}
+td[id^='main_c_'] {
+  background-color: green;
+  color: grey;
+  
+   border-radius: 10px;
+  
+}
+
+#to_hide{
+	border: hidden;
+}
+#to_hide:hover{
+	background-color: rgba(0, 0, 0,0);
+}
+#green{
+	background-color: green;
+}
+#orange{
+	background-color: orange;
+}
+#red{
+	background-color: red;
+}
+#yellow{
+	background-color: yellow;
+}
+#mySelectionForm {
+	
+	height:340px; width:320px;
+}
